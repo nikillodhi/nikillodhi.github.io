@@ -856,3 +856,14 @@ nav a.active {
   }
 
 }
+
+.platform-icon img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+
+    /* bluish-purple tint like your theme */
+    filter: brightness(0) saturate(100%) 
+            invert(64%) sepia(98%) saturate(749%) 
+            hue-rotate(190deg) brightness(105%) contrast(101%);
+}
